@@ -1,0 +1,304 @@
+/* Premium Agency Custom Styles (Gradients & Brand Visuals) */
+
+/* Navigation */
+.agency-nav {
+  background: rgba(248, 251, 255, 0.82);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.05);
+}
+
+.agency-mobile-menu {
+  background: rgba(248, 251, 255, 0.96);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.12);
+}
+
+.agency-brand-mark {
+  align-items: center;
+  background: linear-gradient(135deg, var(--primary), var(--yellow-400));
+  border-radius: 0.8rem;
+  box-shadow: 0 12px 30px rgba(234, 179, 8, 0.22);
+  color: #0b1020;
+  display: inline-flex;
+  font-size: 0.95rem;
+  font-weight: 900;
+  height: 2.25rem;
+  justify-content: center;
+  width: 2.25rem;
+}
+
+/* Hero Visuals & Gradients */
+.agency-hero-orb {
+  border-radius: 9999px;
+  filter: blur(8px);
+  opacity: 0.65;
+  pointer-events: none;
+  position: absolute;
+}
+
+.agency-hero-orb-one {
+  background: rgba(234, 179, 8, 0.18);
+  height: 18rem;
+  right: 5%;
+  top: 7rem;
+  width: 18rem;
+}
+
+.agency-hero-orb-two {
+  background: rgba(59, 130, 246, 0.12);
+  bottom: 5rem;
+  height: 14rem;
+  left: 4%;
+  width: 14rem;
+}
+
+.agency-hero-glow {
+  position: absolute;
+  inset: -4rem -2rem auto auto;
+  width: 24rem;
+  height: 24rem;
+  background: radial-gradient(circle, oklch(from var(--warning) l c h / 0.35), transparent 70%);
+  filter: blur(32px);
+  opacity: 0.9;
+  z-index: -2;
+}
+
+.agency-hero-grid {
+  position: absolute;
+  inset: 2rem 0 0 3rem;
+  background-image:
+    linear-gradient(oklch(0% 0 0 / 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, oklch(0% 0 0 / 0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(circle, black 35%, transparent 72%);
+  z-index: -1;
+}
+
+.agency-check-card {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 9999px;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.06);
+  color: var(--body-text);
+  display: inline-flex;
+  font-size: 0.875rem;
+  font-weight: 700;
+  gap: 0.5rem;
+  padding: 0.7rem 0.9rem;
+}
+
+.agency-check-card svg,
+.agency-icon-wrap svg {
+  color: var(--primary);
+}
+
+.agency-dashboard-card {
+  max-width: 460px;
+  box-shadow:
+    0 32px 90px oklch(0% 0 0 / 0.18),
+    0 0 0 1px oklch(100% 0 0 / 0.7) inset;
+}
+
+.agency-revenue-card {
+  background:
+    linear-gradient(135deg, oklch(from var(--warning) l c h / 0.16), transparent),
+    var(--surface-raised);
+  border: 1px solid oklch(from var(--warning) l c h / 0.22);
+}
+
+.agency-chart {
+  height: 150px;
+  margin-top: 1.25rem;
+  padding: 1rem 0.75rem 0;
+  display: flex;
+  align-items: end;
+  gap: 0.85rem;
+  border-radius: 1rem;
+  background:
+    linear-gradient(to top, oklch(from var(--warning) l c h / 0.12), transparent),
+    linear-gradient(oklch(0% 0 0 / 0.035) 1px, transparent 1px);
+  background-size: auto, 100% 25%;
+}
+
+.agency-chart span {
+  flex: 1;
+  min-width: 0;
+  border-radius: 999px 999px 0 0;
+  background: linear-gradient(180deg, var(--warning), oklch(from var(--warning) 0.78 c h));
+  box-shadow: 0 12px 24px oklch(from var(--warning) l c h / 0.24);
+}
+
+.agency-floating-card {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 999px;
+  background: oklch(100% 0 0 / 0.88);
+  backdrop-filter: blur(18px);
+  border: 1px solid oklch(100% 0 0 / 0.8);
+  font-size: 0.78rem;
+  font-weight: 800;
+  z-index: 2;
+}
+
+.agency-floating-card svg {
+  color: var(--warning);
+}
+
+.agency-floating-card-one {
+  top: 3.5rem;
+  left: 0;
+}
+
+.agency-floating-card-two {
+  right: -1rem;
+  bottom: 4.5rem;
+}
+
+.agency-floating-card-three {
+  left: 2.5rem;
+  bottom: -1rem;
+}
+
+.agency-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  background: var(--success);
+  box-shadow: 0 0 0 0.25rem oklch(from var(--success) l c h / 0.15);
+}
+
+/* Stats Section */
+.agency-stat-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(248, 250, 252, 0.92));
+  padding: 2rem 1rem;
+}
+
+/* Services Section */
+.agency-service-card {
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.agency-service-card:hover {
+  border-color: rgba(234, 179, 8, 0.45);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.11);
+  transform: translateY(-0.35rem);
+}
+
+.agency-icon-wrap {
+  align-items: center;
+  background: linear-gradient(135deg, rgba(234, 179, 8, 0.18), rgba(234, 179, 8, 0.06));
+  border: 1px solid rgba(234, 179, 8, 0.22);
+  border-radius: 1rem;
+  display: inline-flex;
+  height: 3rem;
+  justify-content: center;
+  width: 3rem;
+}
+
+/* Offer Section */
+.agency-offer-card {
+  background: #0b1020;
+}
+
+.agency-offer-copy {
+  background:
+    radial-gradient(circle at top left, rgba(234, 179, 8, 0.22), transparent 22rem),
+    #0b1020;
+}
+
+.agency-offer-panel {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
+    #111827;
+}
+
+.agency-price-card {
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+}
+
+/* Footer */
+.agency-footer {
+  background:
+    radial-gradient(circle at top right, rgba(234, 179, 8, 0.14), transparent 24rem),
+    #080d18;
+  color: var(--slate-300);
+  padding-block: 4rem 2rem;
+}
+
+.agency-footer-cta {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.agency-footer .nav-link {
+  color: var(--slate-300) !important;
+  padding-inline: 0 !important;
+}
+
+.agency-footer .nav-link:hover {
+  color: var(--primary) !important;
+  background: transparent !important;
+}
+
+.agency-footer-contact > div {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  display: flex;
+  gap: 0.65rem;
+  padding: 1rem;
+}
+
+/* Responsive Overrides */
+@media (max-width: 1023px) {
+  .agency-dashboard-card {
+    margin-inline: auto;
+  }
+
+  .agency-floating-card-one,
+  .agency-floating-card-two {
+    position: static;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .agency-check-card {
+    border-radius: 1rem;
+  }
+
+  .agency-chart {
+    height: 12rem;
+  }
+
+  .agency-stat-card {
+    padding: 1.25rem 0.75rem;
+  }
+}
+
+/* Dark Theme Support */
+[data-hygular-theme="dark"] .agency-nav,
+[data-hygular-theme="dark"] .agency-mobile-menu {
+  background: rgba(15, 23, 42, 0.86);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-hygular-theme="dark"] .agency-check-card,
+[data-hygular-theme="dark"] .agency-dashboard-card,
+[data-hygular-theme="dark"] .agency-floating-card,
+[data-hygular-theme="dark"] .agency-stat-card,
+[data-hygular-theme="dark"] .agency-service-card {
+  background: rgba(30, 41, 59, 0.72);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-hygular-theme="dark"] .agency-price-card {
+  background: var(--surface-raised);
+  color: var(--body-text);
+}
