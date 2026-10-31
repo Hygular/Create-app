@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+.nuxt/
+.output/
+dist/
+build/
+
+# Local files
+.env
+.env.*
+!.env.example
+!.env.sample
+*.log
+.DS_Store
